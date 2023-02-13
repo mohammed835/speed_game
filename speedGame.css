@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color : #2196f3;
+}
+.game {
+    background-color: #eee;
+    min-height: 100vh;
+}
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+.name {
+    background: var(--main-color);
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.message {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+.message span{
+    color: #2196f3;
+    font-weight: bold;
+}
+.message span::before{
+    content: '{ ';
+    
+}
+.message span::after{
+    content: ' }';
+}
+.start {
+    font-size: 20px;
+    background-color: #9c27b0;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+.the-word {
+    background: var(--main-color);
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    user-select: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid var(--main-color);
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.upcoming-words {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+
+}
+.upcoming-words div{
+    background: var(--main-color);
+    margin: 7px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.control {
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    
+    
+}
+.control span {
+    color: var(--main-color);
+    font-weight: bold;
+    padding: 15px;
+}
+.finish {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.finish .good {
+    color: var(--main-color);
+    background: #fff;
+    border-radius: 20px;
+}
+.finish .bad {
+    color: #f00;
+    
+}
