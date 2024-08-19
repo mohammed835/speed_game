@@ -15,9 +15,9 @@ let words = [
 ]
 // levels of game
 let lvls = {
-    'easy' : 5,
-    'normal' : 3 , 
-    "hard" : 1
+    'easy' : 9,
+    'normal' : 6 , 
+    "hard" : 3
 }
 
 // dafault level
